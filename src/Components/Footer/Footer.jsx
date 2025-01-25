@@ -6,11 +6,11 @@ import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
     return (
-        <div className='mt-32'>
+        <div className='md:mt-32 mt-24'>
             <div className='flex md:flex-row flex-col justify-between md:mb-10 mb-8 text-center md:text-start items-center'>
                 <div>
                     <Logo></Logo>
-                    <p className='pt-2'>Bringing foodies together,one recipe at a time.</p>
+                    <p className='pt-2 text-sm text-[var(--secondary)]'>Bringing foodies together,one recipe at a time.</p>
                 </div>
 
                 <div className="flex md:flex-row flex-col lg:gap-10 md:gap-5 gap-3 mt-5 md:mt-0 underline">

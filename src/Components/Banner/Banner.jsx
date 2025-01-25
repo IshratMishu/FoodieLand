@@ -6,7 +6,7 @@ import { FaClock, FaRegPlayCircle } from 'react-icons/fa';
 
 const Banner = () => {
     return (
-        <div className='md:mt-28 mt-24 bg-[#E7FAFE] rounded-3xl lg:h-[640px] h-[460px] flex items-center relative'>
+        <div className='md:mt-28 mt-24 bg-[var(--primary)] rounded-3xl lg:h-[640px] h-[460px] flex items-center relative'>
 
             {/* Banner Texts */}
             <div className='lg:px-10 px-5 w-[620px]'>
@@ -17,7 +17,7 @@ const Banner = () => {
 
                 <div>
                     <h4 className='lg:text-6xl md:text-4xl text-3xl font-semibold pb-5'>Spicy delicious chicken wings</h4>
-                    <p className='text-sm lg:text-base'>Get ready to savor the bold flavors of our spicy, delicious chicken wings! Perfectly seasoned and irresistibly crispy, they’re a fiery treat for your taste buds.</p>
+                    <p className='text-sm lg:text-base text-[var(--secondary)]'>Get ready to savor the bold flavors of our spicy, delicious chicken wings! Perfectly seasoned and irresistibly crispy, they’re a fiery treat for your taste buds.</p>
                 </div>
 
 
