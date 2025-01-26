@@ -6,20 +6,20 @@ import { FaFacebook, FaInstagramSquare, FaPhoneAlt, FaTwitterSquare } from "reac
 
 const page = () => {
     return (
-        <div className='md:mt-28 mt-24 px-20'>
+        <div className='md:mt-28 mt-24 lg:px-20 px-0'>
             <h1 className='text-4xl font-bold'>About Foodieland</h1>
             <h4 className='text-2xl font-semibold mt-6'>Clean, Safe, and Prepared to Serve You</h4>
             <p className='text-lg'>The diner is open from 6 am to 10 pm --and free parking is available behind our location.</p>
 
-            <div className='mt-20 flex items-center justify-between'>
+            <div className='mt-20 flex md:flex-row flex-col items-center justify-between'>
                 <Image
                     src={'/assets/say-cheesei_1656085479.webp'}
                     alt='about'
                     height={300}
                     width={300}
-                    className='w-96 h-96 rounded-full object-cover'></Image>
+                    className='lg:w-96 lg:h-96 w-72 h-72 rounded-full object-cover'></Image>
 
-                <div className='w-[50%]'>
+                <div className='md:w-[50%] w-full'>
                     <h3 className='text-2xl font-semibold pb-5'>Superior service, personalized attention</h3>
 
                     <p>We're proud to offer the highest quality, freshest diner food on The Main Line. From our family to yours, we put lots of love and careful attention in each item. We hope you enjoy our work as much as we enjoy bringing it to you.</p>
@@ -36,7 +36,7 @@ const page = () => {
                 <p className='font-medium pt-6'>Drew D., Wayne, PA</p>
             </div>
 
-            <div className='flex gap-28 mt-20'>
+            <div className='flex md:flex-row flex-col md:gap-28 gap-10 mt-20'>
                 <div>
                     <h3 className='text-3xl font-semibold'>A brief history</h3>
                     <p className='pt-6'>In 1998, proprietor Foodieland's son, Tom, sold the original diner to brothers, Nick and Dennis Dellaportas, who remodeled it making it 60 feet larger and doubled capacity. The two brothers and their families worked with the contractors who shipped the new restaurant in nine pieces to downtown Wayne, PA, from New Rochelle, New York.</p>
@@ -53,10 +53,10 @@ const page = () => {
 
 
             <div className='flex justify-center mt-20 relative'>
-                <div className='w-80 h-80 border-4 border-[var(--primary)]'>
+                <div className='md:visible invisible w-80 h-80 border-4 border-[var(--primary)]'>
 
                 </div>
-                <div className='w-80 h-80 bg-[var(--primary)] space-y-4 px-10 py-20 absolute left-1/2 top-5'>
+                <div className='w-80 h-80 bg-[var(--primary)] space-y-4 px-10 py-20 md:absolute left-1/2 top-5'>
                     <p className='flex items-center gap-2 text-lg font-semibold'><MdMarkEmailUnread /> foodieland@gmail.com</p>
                     <p className='flex items-center gap-2 text-lg font-semibold'><FaPhoneAlt /> +911234 5678</p>
 
